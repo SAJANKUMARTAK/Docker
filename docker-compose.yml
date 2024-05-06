@@ -1,0 +1,27 @@
+version: v1
+services:
+    wp:
+        image: wordpress:latest
+        ports:
+            - 80:80
+        volumes:
+            - wpvol:/var/www/html
+        restart: always
+        environment:
+            WORDPRESS_DB_HOST: db
+            WORDPRESS_DB_USER: root
+            WORDPRESS_DB_PASSWORD: redhat
+            WORDPRESS_DB_NAME: sajan
+
+    db:
+        image: mariadb:latest
+        volumes:
+            - dbvol:/var/lib/mysql
+        restart: always
+        environment:
+            MARIADB_ROOT_PASSWORD: redhat
+            MARIADB_DATABASE: sajan
+
+volumes:
+    wpvol:
+    dbvol:
