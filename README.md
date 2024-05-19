@@ -6,9 +6,7 @@ Docker: Ensure that Docker is installed on your system. You can download and ins
 Getting Started
 Clone this repository to your local machine:
 
-bash
-Copy code
-git clone https://github.com/your-username/wordpress-mariadb-docker-compose.git
+git clone https://github.com/SAJANKUMARTAK/Docker-Compose-Wordpress-.git
 Navigate to the cloned directory:
 
 Usage
