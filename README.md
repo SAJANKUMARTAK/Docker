@@ -6,7 +6,7 @@ Docker: Ensure that Docker is installed on your system. You can download and ins
 Getting Started
 Clone this repository to your local machine:
 
-git clone https://github.com/SAJANKUMARTAK/Docker-Compose-Wordpress-.git
+git clone https://github.com/SAJANKUMARTAK/Docker-Containerzation-.git
 Navigate to the cloned directory:
 
 Starting Containers: To start the containers, run docker-compose up -d in the project directory.
