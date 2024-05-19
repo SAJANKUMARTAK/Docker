@@ -9,7 +9,6 @@ Clone this repository to your local machine:
 git clone https://github.com/SAJANKUMARTAK/Docker-Compose-Wordpress-.git
 Navigate to the cloned directory:
 
-Usage
 Starting Containers: To start the containers, run docker-compose up -d in the project directory.
 
 Stopping Containers: To stop the containers, run docker-compose down in the project directory.
