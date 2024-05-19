@@ -1,8 +1,8 @@
 WordPress Deployment with MariaDB using Docker Compose
 This repository contains the configuration files and instructions for deploying a WordPress application with MariaDB using Docker Compose.
-
 Prerequisites
-Docker: Ensure that Docker is installed on your system. You can download and install Docker from https://www.docker.com/.
+Docker: Ensure that Docker is installed on your system. You can download and install Docker
+
 Getting Started
 Clone this repository to your local machine:
 
